@@ -5,10 +5,12 @@
 *   Removed the exit inside the handle_signal() method
 *   Exiting now relies on SIGKILL from terminal
 */
+
+#include <stdio.h>
 #include <signal.h>
 #include <unistd.h>
 #include <stdlib.h>
-#include <stdio.h>
+
 /**
 * @brief Signal handler for SIGINT - prints a message and exits
 */

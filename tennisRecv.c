@@ -3,7 +3,8 @@
 * Modified by: Gabi Heuser
 *
 * Brief summary of program:
-*   
+*   Recieving tennis "player", prints its pid to be used by sender
+*   Uses tennis scoring with a 4/10 chance to miss (rand int 0-9 < 3)
 */
 
 #include <stdio.h>

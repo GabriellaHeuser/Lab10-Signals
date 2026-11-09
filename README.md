@@ -3,8 +3,7 @@
 CPE 2600 Systems Programming - Gabi Heuser
 
 ## Build
-
-    make
+    'make'
 
 ## Programs
 

@@ -3,11 +3,11 @@
 * Modified by: Gabi Heuser
 *
 * Brief summary of program:
-*   One way communication sender. 
-*   Must be prompted with PID in command line.
+*   Serving tennis "player", pid of reciever in command line to start game
+*   Uses tennis scoring with a 3/10 chance to miss (rand int 0-9 < 3)
 *
 * To Send:
-*   
+*   ./tennisSend <PID>
 */
 
 #include <stdio.h>
